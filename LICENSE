@@ -19,3 +19,45 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+### docs/product-requirements.md
+```markdown
+# Product Requirements: Compliance Health Scan MVP
+
+## 1. Overview
+MVP diagnostic tool for Singapore SME HR compliance risk assessment.
+
+## 2. Goals
+- Reduce "regulatory debt" for 15-25 employee SMEs
+- Provide actionable compliance insights in under 10 minutes
+- Establish product-market fit for compliance navigation
+
+## 3. User Personas
+
+### 3.1 Overwhelmed Founder (5-20 employees)
+- Handles HR personally via spreadsheets
+- Terrified of MOM audits but lacks budget for consultants
+- Needs checklist-style tool to "get green"
+
+### 3.2 Admin Generalist (20-50 employees)  
+- Uses Talenox/Swingvy but lacks legal knowledge
+- Needs "second opinion" before executing HR actions
+
+## 4. Core Features
+
+### 4.1 Health Zones
+1. **Workforce & Hiring Hygiene** (Gatekeeper)
+2. **Contract & Classification Scanner** (Shield) 
+3. **Payroll & Compensation Audit** (Calculator)
+4. **Fair Employment & Grievance** (Culture Check)
+
+### 4.2 Risk Scoring
+- **Formula**: Risk Score = Probability (1-5) × Severity (1-5)
+- **Visualization**: Red/Amber/Green heat map
+- **Output**: 3-5 priority actions with statutory citations
+
+## 5. Success Metrics
+- **Activation**: 70% of users complete Health Scan
+- **Value**: 50% act on at least one priority action
+- **Retention**: 40% weekly active usage
